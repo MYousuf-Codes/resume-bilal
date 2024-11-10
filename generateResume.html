@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <title>Generate Your Resume</title>
+</head>
+
+<body>
+
+    
+    <header>
+        <div class="header">
+            <a href="index.html" class="logo">
+                <div class="title">Dynamic Resume Builder</div>
+            </a>
+            <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="generateResume.html">Generate Your Resume</a></li>
+            </ul>
+        </div>
+    </header>
+                   
+    
+    <center>
+        <div id="h1">
+            <h1 style="align-items: center; display: flex; justify-content: center; font-variant: small-caps;">Dynamically Resume Builder With Form</h1>
+            <p style="display: flex; justify-content: center;align-items: center; font-variant: small-caps;">"Just a few steps away from your job-winning resume."</p>
+            <p style="display: flex; justify-content: center;align-items: center; font-variant: small-caps;">Milestone: 3 & 4</p>
+        </div>   
+    </div>
+
+    <form id="resumeForm">
+        <input type="file" id="profileImage" />
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="profession" placeholder="Profession" />
+        <input type="email" id="email" placeholder="Email" />
+        <input type="tel" id="phone" placeholder="Phone" />
+        <textarea id="overview" placeholder="Career Overview"></textarea>
+        <textarea id="education" placeholder="Education"></textarea>
+        <textarea id="experience" placeholder="Experience"></textarea>
+        <textarea id="skills" placeholder="Skills"></textarea>
+        <textarea id="contact" placeholder="Contact Info"></textarea>
+        <input type="url" id="linkedin" placeholder="LinkedIn" />
+        <input type="url" id="github" placeholder="GitHub" />
+        <textarea id="projects" placeholder="Projects"></textarea>
+        <textarea id="certifications" placeholder="Certifications"></textarea>
+        <input type="url" id="twitter" placeholder="Twitter" />
+        <input type="url" id="instagram" placeholder="Instagram" />
+        <input type="url" id="stackoverflow" placeholder="Stack Overflow" />
+      
+        <button type="submit">Generate Resume</button>
+    </form>
+    </center>
+   
+    <div id="resumeContainer"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
